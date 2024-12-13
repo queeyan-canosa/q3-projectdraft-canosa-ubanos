@@ -1,44 +1,20 @@
-# Hello Node!
+**Title**
 
-This project includes a Node.js server script and a web page that connects to it. The front-end page presents a form the visitor can use to submit a color name, sending the submitted value to the back-end API running on the server. The server returns info to the page that allows it to update the display with the chosen color. 🎨
+A guide to Hybe's talented kingdom
 
-[Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run server-side JavaScript. This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).
+**Description**
 
-_Last updated: 14 August 2023_
+HYBE is an entertainment company based in Korea. The relation of HYBE to our website is that our interactive website will compose of all of the kpop groups under HYBE. The sub-websites under the main one will show each groups own website, and under the website will show an introduction to the groups, and their songs. Wherein the users can interact by clicking the link that goes to the music videos of the certain groups’ song and rate it.
 
-## Prerequisites
+**Outline**
 
-You'll get best use out of this project if you're familiar with basic JavaScript. If you've written JavaScript for client-side web pages this is a little different because it uses server-side JS, but the syntax is the same!
+![Outline](https://cdn.glitch.global/608bc9d6-2e45-459e-b048-89a3aa7ff5a7/bc3c84b9-be05-402b-9ceb-cbc3f1a29385.image.png?v=1730622165908)
 
-## What's in this project?
+**Wireframes**
+![Wireframe 1](https://cdn.glitch.global/608bc9d6-2e45-459e-b048-89a3aa7ff5a7/Screenshot%202024-11-30%20151917.png?v=1732951338336)
+![Wireframe 2](https://cdn.glitch.global/608bc9d6-2e45-459e-b048-89a3aa7ff5a7/Screenshot%202024-11-30%20151932.png?v=1732951346421)
+![Wireframe 3](https://cdn.glitch.global/608bc9d6-2e45-459e-b048-89a3aa7ff5a7/Screenshot%202024-11-30%20152046.png?v=1732951355802)
+![Wireframe 4](https://cdn.glitch.global/608bc9d6-2e45-459e-b048-89a3aa7ff5a7/Screenshot%202024-11-30%20152058.png?v=1732951363035)
+**JavaScript Incorporation Description**
 
-← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
-
-← `public/style.css`: The styling rules for the pages in your site.
-
-← `server.js`: The **Node.js** server script for your new site. The JavaScript defines the endpoints in the site back-end, one to return the homepage and one to update with the submitted color. Each one sends data to a Handlebars template which builds these parameter values into the web page the visitor sees.
-
-← `package.json`: The NPM packages for your project's dependencies.
-
-← `src/`: This folder holds the site template along with some basic data files.
-
-← `src/pages/index.hbs`: This is the main page template for your site. The template receives parameters from the server script, which it includes in the page HTML. The page sends the user submitted color value in the body of a request, or as a query parameter to choose a random color.
-
-← `src/colors.json`: A collection of CSS color names. We use this in the server script to pick a random color, and to match searches against color names.
-
-← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
-
-## Try this next 🏗️
-
-Take a look in `TODO.md` for next steps you can try out in your new site!
-
-___Want a minimal version of this project to build your own Node.js app? Check out [Blank Node](https://glitch.com/edit/#!/remix/glitch-blank-node)!___
-
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+The way we will use JavaScript for our homepage is to allow users to enter the website by clicking on the images of the companies they wish to learn about. For this, we will use the onclick event so that when a picture of a company/group is clicked, it will be easily redirected to the website of the company/group. Furthermore, we will use window location, which is typically used to redirect the visitor from the current webpage to another one. Each of the company photos' IDs will correspond to the company's name.
