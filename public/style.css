@@ -1,3 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+  font-family: Arial, sans-serif;
+  background-color:  #ffc0cb;
+  color : black;
+}
+
+.homeheader{
+  text-align: center;
+  color : black;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  background-color: white;
   
+}
+
+h2 {
+    text-align: center;
+    color:black ;
+    margin-bottom: 30px;
+}
+
+.companyimg{
+  display : flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.companyimg a {
+    display: block;
+}
+
+.companyimg img{
+  width : 200px;
+  height : 150px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+/* effects for hovering*/
+.companyimg img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
 }
