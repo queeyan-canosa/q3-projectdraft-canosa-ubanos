@@ -47,10 +47,11 @@ h2 {
 }
 
 .NWJNimg img {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 25px;
 }
 
 .companyimg img {
@@ -80,6 +81,13 @@ h2 {
   border: 5px solid #000000;
   border-radius: 10px;
   background-color: white;
+}
+
+.NWJNimg {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 20px;
 }
 
 .adorimg {
@@ -157,8 +165,17 @@ h2 {
 }
 
 
-.NWJNimg:hover {
+.NWJNimg img:hover {
   transform: scale(1.05);
+}
+
+.desimg {
+  text-align:right;
+  height: 300px;
+  Width: 300px;
+  background-color: white;
+  border: black;
+  border-radius: 25px;
 }
 
  
