@@ -52,6 +52,7 @@ h2 {
   height: 200px;
   border: 3px solid black;
   border-radius: 25px;
+  position: center;
 }
 
 .companyimg img {
@@ -66,8 +67,6 @@ h2 {
 .companyimg img:hover {
   transform: scale(1.05);
 }
-
-
 
 .adorimg img:hover {
   transform: scale(1.1);
@@ -85,8 +84,8 @@ h2 {
 
 .NWJNimg {
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -178,13 +177,22 @@ h2 {
   border-radius: 25px;
 }
 
- 
+p{
+  font-size: 10px;
+  background-color: #f5f5f5; 
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0; 
+  text-align: justify;
+}
+
 
 footer {
     text-align: center;
     margin-top: 60px;
     padding: 20px;
     background-color: grey;
-    color: white;
+    color: black;
     font-size: 14px; 
 }
