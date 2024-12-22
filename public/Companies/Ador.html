@@ -89,6 +89,18 @@
       <p>&copy; 2024 Canosa and Ubanos.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+    function toggleDropdown(dropdownId) {
+        var dropdownContent = document.getElementById(dropdownId);
+        
+        if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+          dropdownContent.style.display = "block";
+        } else {
+          dropdownContent.style.display = "none";
+        }
+      }
+
+    
+    </script>
   </body>
 </html>
