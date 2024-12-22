@@ -81,7 +81,7 @@ h2 {
   margin-top: 20px;
 }
 
-
+/* Group Images */
 #home1 {
   background-color: pink;
   padding: 20px;
@@ -131,6 +131,28 @@ h2 {
 .dropdown-cont a:hover, .dropdown-cont1 a:hover {
   background-color: gray;
 }
+
+
+#home2 {
+  background-color: pink;
+  padding: 20px;
+}
+
+.NWJNimg img{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.NWJNimg img:hover{
+    transform: scale(1.1);
+}
+
+
+
+ 
 
 footer {
     text-align: center;
