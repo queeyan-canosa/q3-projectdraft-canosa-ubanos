@@ -7,3 +7,22 @@ function toggleDropdown(dropdownId) {
           dropdownContent.style.display = "none";
         }
       }
+
+
+function starsaccess {
+  let star = document.getElementbyClassName("stars");
+  let output = document.getElementbyId = ("outputs");
+  
+  function remove() {
+    let i = 0;
+    while (i < 5) {
+        star[i].className = "stars";
+        i++;
+    }
+}
+  
+  
+  
+  
+  
+}
