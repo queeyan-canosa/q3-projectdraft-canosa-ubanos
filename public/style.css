@@ -124,6 +124,10 @@ h2 {
   background-color: blue;
 }
 
+.dropbutton:hover .dropdown-cont {
+      display: block;
+    }
+
 footer {
     text-align: center;
     margin-top: 60px;
