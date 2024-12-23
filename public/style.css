@@ -221,23 +221,23 @@ p {
   cursor: pointer;
 }
 
-.starnumbers(1) {
+.one {
   color: rgb(255, 0, 0);
 }
 
-.starnumbers(2) {
+.two {
   color: rgb(255, 106, 0);
 }
 
-.starnumbers(3) {
+.three {
   color: rgb(251, 255, 120);
 }
 
-.starnumbers(4) {
+.four {
   color: rgb(255, 255, 0);
 }
 
-.starnumbers(5) {
+.five {
   color: rgb(24, 159, 14);
 }
 

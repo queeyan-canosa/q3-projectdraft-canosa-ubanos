@@ -67,40 +67,9 @@
         <span onclick="starnumbers(4)" class="star">★ </span>
         <span onclick="starnumbers(5)" class="star">★ </span>
 
-        <span id="output"></h3>
+        <h3 id="output"> Rating is: 0/5 </h3>
         
       </div>
-
-      <script>
-              function starnumbers {
-          let star = document.getElementbyClassName("stars");
-          let output = document.getElementbyId = ("outputs");
-
-          let number;
-          for(i = 0; i < n; i++) {
-            if (n>0) {
-              (n == 1) number = "one";
-            }
-              else {(n == 2) number = "two";
-                      }
-              else { (n == 3) number = "three";
-                     }
-              else {(n == 4) number = "four";
-                      }
-              else {(n == 5) number = "five";
-                     }
-             star[i].className = "star " + number;
-            }
-              output.innerText = "Rating is: " + n + "/5";
-          }
-
-                    let i = 0;
-            while (i < 5) {
-                stars[i].className = "star";
-                i++;
-            }
-        }
-      </script>
 
       <div class="dropdown">
         <button
@@ -172,36 +141,31 @@
         }
       }
       
-function starnumbers {
-  let star = document.getElementbyClassName("stars");
-  let output = document.getElementbyId = ("outputs");
-  
-  let number;
-  for(i = 0; i < n; i++) {
-    if (n>0) {
-      (n == 1) number = "one";
-    }
-      else {(n == 2) number = "two";
-              }
-      else { (n == 3) number = "three";
-             }
-      else {(n == 4) number = "four";
-              }
-      else {(n == 5) number = "five";
-             }
-     star[i].className = "star " + number;
-    }
-      output.innerText = "Rating is: " + n + "/5";
-  }
-    
+      let stars = document.getElementsByClassName("star");
+      let output = document.getElementById("output");
+        
+        function starnumbers(n) {
+          remove();
+          
+          for(let i = 0; i < n; i++) {
+            if (n == 1) number = "one";
+            else if (n == 2) number = "two";
+            else if (n == 3) number = "three";
+            else if (n == 4) number = "four";
+            else if (n == 5) number = "five";
+             stars[i].className = "star " + number;
+            }
+              output.innerText = "Rating is: " + n + "/5";
+          }
 
-function remove() {
-    let i = 0;
-    while (i < 5) {
-        stars[i].className = "star";
-        i++;
-    }
-}
+          function remove()  {
+            let i = 0;
+            while (i < 5) {
+                stars[i].className = "star";
+                i++;
+            }
+        }
+        
     </script>
   </body>
 </html>
