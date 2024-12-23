@@ -14,6 +14,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/4f91587e-08a5-4b0e-ac2e-6d6f9daf9683/hybe.png?v=1734854202472"
+      type="image/png"
+    />
   </head>
 
   <body>
@@ -26,14 +31,13 @@
       </h2>
 
       <!-- clickable images (companies)-->
-    <div class="adorimg">
+      <div class="adorimg">
         <a href="../Groups/NewJeans.html">
           <img
             src="https://cdn.glitch.global/4f91587e-08a5-4b0e-ac2e-6d6f9daf9683/IMG_2836.jpeg?v=1734755677400"
-              >
+          />
         </a>
       </div>
-      
 
       <!-- Dropdown for Companies-->
       <div class="dropdown">
@@ -93,17 +97,18 @@
     </footer>
 
     <script>
-    function toggleDropdown(dropdownId) {
+      function toggleDropdown(dropdownId) {
         var dropdownContent = document.getElementById(dropdownId);
-        
-        if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+
+        if (
+          dropdownContent.style.display === "none" ||
+          dropdownContent.style.display === ""
+        ) {
           dropdownContent.style.display = "block";
         } else {
           dropdownContent.style.display = "none";
         }
       }
-
-    
     </script>
   </body>
 </html>
