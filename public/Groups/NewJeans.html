@@ -61,13 +61,13 @@
         </p>
 
         <br />
-        <span onclick="starnumbers(1)" class="star">★ </span>
-        <span onclick="starnumbers(2)" class="star">★ </span>
-        <span onclick="starnumbers(3)" class="star">★ </span>
-        <span onclick="starnumbers(4)" class="star">★ </span>
-        <span onclick="starnumbers(5)" class="star">★ </span>
+        <span onclick="starnumbers(1)" class="star">N </span>
+        <span onclick="starnumbers(2)" class="star">N </span>
+        <span onclick="starnumbers(3)" class="star">N </span>
+        <span onclick="starnumbers(4)" class="star">N </span>
+        <span onclick="starnumbers(5)" class="star">N </span>
 
-        <h3 id="output"> Rating is: 0/5 </h3>
+        <h3 id="output"> Rating: 0/5 </h3>
         
       </div>
 
@@ -141,7 +141,7 @@
         }
       }
       
-      let stars = document.getElementsByClassName("star");
+      let rating = document.getElementsByClassName("star");
       let output = document.getElementById("output");
         
         function starnumbers(n) {
@@ -153,15 +153,15 @@
             else if (n == 3) number = "three";
             else if (n == 4) number = "four";
             else if (n == 5) number = "five";
-             stars[i].className = "star " + number;
+             rating[i].className = "N " + number;
             }
-              output.innerText = "Rating is: " + n + "/5";
+              output.innerText = "Rating: " + n + "/5";
           }
 
           function remove()  {
             let i = 0;
             while (i < 5) {
-                stars[i].className = "star";
+                rating[i].className = "star";
                 i++;
             }
         }
