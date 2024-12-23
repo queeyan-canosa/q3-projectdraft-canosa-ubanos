@@ -40,15 +40,15 @@
         New Jeans is a girl group under ADOR with 5 members. Namely, Hanni,
         Minji, Danielle, Haerin, and Hyein. Their debut date was July 22, 2022
         and had their first album released on August 1, 2022 with the album, New
-        Jeans so often called as their first EP. 
-        
-        <br/>
-        <br/>
-        
-        Their fans' name is called
-        "bunnies" and their official greeting is "Hello! We are New jeans!". New
-        Jeans means a sort of word rhymes with New Jeans, which is New Gene
-        stating that their music will be suitable for the new generation.
+        Jeans so often called as their first EP.
+
+        <br />
+        <br />
+
+        Their fans' name is called "bunnies" and their official greeting is
+        "Hello! We are New jeans!". New Jeans means a sort of word rhymes with
+        New Jeans, which is New Gene stating that their music will be suitable
+        for the new generation.
       </p>
       <h3>Listen and Rate!</h3>
       <div class="forthestars">
@@ -59,19 +59,48 @@
             Attention</a
           >
         </p>
-       
-          <br />
-          <span onclick="starnumbers(1)" class="star"> </span>
-          <span onclick="starnumbers(2)" class="star"> </span>
-          <span onclick="starnumbers(3)" class="star"> </span>
-          <span onclick="starnumbers(4)" class="star"> </span>
-          <span onclick="starnumbers(5)" class="star"> </span>
 
-          <h4 id="output"></h3>
-        </div>
-    
+        <br />
+        <span onclick="starnumbers(1)" class="star">★ </span>
+        <span onclick="starnumbers(2)" class="star">★ </span>
+        <span onclick="starnumbers(3)" class="star">★ </span>
+        <span onclick="starnumbers(4)" class="star">★ </span>
+        <span onclick="starnumbers(5)" class="star">★ </span>
 
-      <script src="../script.js"></script>
+        <span id="output"></h3>
+        
+      </div>
+
+      <script>
+              function starnumbers {
+          let star = document.getElementbyClassName("stars");
+          let output = document.getElementbyId = ("outputs");
+
+          let number;
+          for(i = 0; i < n; i++) {
+            if (n>0) {
+              (n == 1) number = "one";
+            }
+              else {(n == 2) number = "two";
+                      }
+              else { (n == 3) number = "three";
+                     }
+              else {(n == 4) number = "four";
+                      }
+              else {(n == 5) number = "five";
+                     }
+             star[i].className = "star " + number;
+            }
+              output.innerText = "Rating is: " + n + "/5";
+          }
+
+                    let i = 0;
+            while (i < 5) {
+                stars[i].className = "star";
+                i++;
+            }
+        }
+      </script>
 
       <div class="dropdown">
         <button
@@ -142,6 +171,37 @@
           dropdownContent.style.display = "none";
         }
       }
+      
+function starnumbers {
+  let star = document.getElementbyClassName("stars");
+  let output = document.getElementbyId = ("outputs");
+  
+  let number;
+  for(i = 0; i < n; i++) {
+    if (n>0) {
+      (n == 1) number = "one";
+    }
+      else {(n == 2) number = "two";
+              }
+      else { (n == 3) number = "three";
+             }
+      else {(n == 4) number = "four";
+              }
+      else {(n == 5) number = "five";
+             }
+     star[i].className = "star " + number;
+    }
+      output.innerText = "Rating is: " + n + "/5";
+  }
+    
+
+function remove() {
+    let i = 0;
+    while (i < 5) {
+        stars[i].className = "star";
+        i++;
+    }
+}
     </script>
   </body>
 </html>

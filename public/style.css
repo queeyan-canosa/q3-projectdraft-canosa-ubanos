@@ -208,13 +208,12 @@ p {
 }
 
 .forthestars {
-  max-width: 33rem;
+  max-width: 500px;
   background: #ffffff;
-  margin: 0 1rem;
-  padding: 1rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  padding: 10px;
   width: 100%;
-  border-radius: 0.5rem;
+  border-radius: 25px;
 }
 
 .star {
@@ -222,23 +221,23 @@ p {
   cursor: pointer;
 }
 
-.one {
+.starnumbers(1) {
   color: rgb(255, 0, 0);
 }
 
-.two {
+.starnumbers(2) {
   color: rgb(255, 106, 0);
 }
 
-.three {
+.starnumbers(3) {
   color: rgb(251, 255, 120);
 }
 
-.four {
+.starnumbers(4) {
   color: rgb(255, 255, 0);
 }
 
-.five {
+.starnumbers(5) {
   color: rgb(24, 159, 14);
 }
 
