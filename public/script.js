@@ -9,7 +9,7 @@ function toggleDropdown(dropdownId) {
       }
 
 
-function starsaccess {
+function songitem {
   let star = document.getElementbyClassName("stars");
   let output = document.getElementbyId = ("outputs");
   
