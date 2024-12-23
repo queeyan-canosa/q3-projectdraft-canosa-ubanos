@@ -9,7 +9,7 @@ function toggleDropdown(dropdownId) {
       }
 
 
-function songitem {
+function starnumbers {
   let star = document.getElementbyClassName("stars");
   let output = document.getElementbyId = ("outputs");
   
@@ -31,6 +31,14 @@ function songitem {
       output.innerText = "Rating is: " + n + "/5";
   }
     
+
+function remove() {
+    let i = 0;
+    while (i < 5) {
+        stars[i].className = "star";
+        i++;
+    }
+}
   
   
      
