@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home page</title>
+    <meta name="author" content="Canosa and Ubanos" />
+    <meta name="keywords" content="ador, newjeans, kpop" />
+    <meta name="revised" content="12/23/2024" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/4f91587e-08a5-4b0e-ac2e-6d6f9daf9683/hybe.png?v=1734854202472"
+      type="image/png"
+    />
+  </head>
+
+  <body>
+    <section id="home1">
+      <h1 class="header1">Here is ADOR's most prized possesion.</h1>
+
+      <h2>
+        Click the picture to discover more about this talented entertainment
+        company
+      </h2>
+
+      <!-- clickable images-->
+      <div class="adorimg">
+        <a href="../Groups/NewJeans.html">
+          <img
+            src="https://cdn.glitch.global/4f91587e-08a5-4b0e-ac2e-6d6f9daf9683/IMG_2836.jpeg?v=1734755677400"
+          />
+        </a>
+      </div>
+
+      <!-- Dropdown for Companies-->
+      <div class="dropdown">
+        <button
+          class="dropbutton"
+          onclick="toggleDropdown('companiesDropdown')"
+        >
+          Companies
+        </button>
+        <div id="companiesDropdown" class="dropdown-cont">
+          <a href="Companies/Ador.html">Source Music</a>
+          <a href="Companies/Belift.html">Belift </a>
+          <a href="Companies/BigHit.html">BigHit </a>
+          <a href="Companies/HYBEJapan.html">HYBEJapan </a>
+          <a href="Companies/KOZent.html">KOZ Entertainment</a>
+          <a href="Companies/Pledis.html">Pledis</a>
+          <a href="Companies/SourceMusic.html">Source Music</a>
+        </div>
+      </div>
+
+      <!-- Dropdown for Groups -->
+      <div class="dropdown1">
+        <button class="dropbutton1" onclick="toggleDropdown('groupsDropdown')">
+          Groups
+        </button>
+        <div id="groupsDropdown" class="dropdown-cont1">
+          <a href="../Groups/NewJeans.html">Le Sserafim </a>
+          <a href="../Groups/&team.html">&TEAM </a>
+          <a href="../Groups/BND.html">Boy Next Door </a>
+          <a href="../Groups/BTS.html">BTS </a>
+          <a href="../Groups/Enhypen.html">Enhypen</a>
+          <a href="../Groups/Fromis9.html">Fromis 9</a>
+          <a href="../Groups/Katseye.html">Katseye</a>
+          <a href="../Groups/TWS.html">TWS </a>
+          <a href="../Groups/gfriend.html">GFriend </a>
+          <a href="../Groups/lesserafim.html">Le Sserafim </a>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <p>
+      ADOR which stands for "All Doors One Room" is under the parent company,
+      HYBE and was founded on November 12, 2021, with Min Hee-Jin as the CEO and
+      a former Cheif Brand Officer in HYBE. They are considered to be an
+      independent company. 
+      
+      <br/>
+      <br/>
+      
+      They were looking for auditionees for a New Girl
+      group that they wanted to debut in 2022, they were selected from the Plus
+      Global Audition during 2019. The group that came to be the result of this
+      Global Audition was called New Jeans. They lasted in the company for two
+      years, 2022-2024 although still pursuing their career whilst not having a
+      contract in ADOR anymore.
+    </p>
+
+    <footer>
+      <p>&copy; 2024 Canosa and Ubanos.</p>
+    </footer>
+
+    <!-- script for toggling the dropdown-->
+    <script>
+      function toggleDropdown(dropdownId) {
+        var dropdownContent = document.getElementById(dropdownId);
+
+        if (
+          dropdownContent.style.display === "none" ||
+          dropdownContent.style.display === ""
+        ) {
+          dropdownContent.style.display = "block";
+        } else {
+          dropdownContent.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
