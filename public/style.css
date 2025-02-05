@@ -48,6 +48,48 @@ h2 {
   transition: transform 0.3s ease-in-out; /* Added smooth transition */
 }
 
+.twit{
+  display: inline-block;
+  background: url('https://i.imgur.com/d363lLH.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+}
+
+.twit:hover{
+  display: inline-block;
+  background: url('https://i.imgur.com/d363lLH.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+
+.book{
+  display:inline-block;
+  background: url('https://i.imgur.com/d363lLH.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+}
+
+.book:hover{
+  display:inline-block;
+  background: url('https://i.imgur.com/d363lLH.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+
+.youtube {
+  display:inline-block;
+	background: url('https://i.imgur.com/RuiujUW.jpeg') no-repeat -591px -47px;
+	width: 34px;
+	height: 34px;
+}
+
+.youtube:hover {
+  display:inline-block;
+	background: url('https://i.imgur.com/RuiujUW.jpeg')no-repeat -591px -111px;
+	width: 33px;
+	height: 32px;
+}
+
 .adorimg img {
   width: 400px;
   max-width: 500px;
